@@ -1,3 +1,4 @@
+import Footer from '@/components/Footer/Footer'
 import Front from '@/components/Front/Front'
 import Top from '@/components/Top/Top'
 import Header from 'components/Header/Header'
@@ -9,6 +10,7 @@ function index() {
       <Header/>
       <Top/>
       <Front/>
+      <Footer/>
     </div>
   )
 }

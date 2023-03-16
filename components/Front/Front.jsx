@@ -184,6 +184,20 @@ function Front() {
         <div className={styles.hl}>
           <h1>Acesess</h1>
         </div>
+        <div className={styles.acbox}>
+          <div className={styles.acleft}>
+            <h2>Lorem, ipsum.</h2>
+            <p>TEL 090-XXXX-XXXX</p>
+            <p>〒 XXX-XXXX</p>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Lorem ipsum dolor sit.</p>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+          <div className={styles.acright}>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3239.663210352083!2d139.80812331555146!3d35.7099045860057!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188ed0d12f9adf%3A0x7d1d4fb31f43f72a!2z5p2x5Lqs44K544Kr44Kk44OE44Oq44O8!5e0!3m2!1sja!2sjp!4v1678942735541!5m2!1sja!2sjp" loading="lazy" referrerpolicy="no-referrer-when-downgrade" className={styles.map}></iframe>
+          </div>
+        </div>
       </div>
     </div>
   )

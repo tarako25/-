@@ -1,0 +1,36 @@
+
+.footermain{
+    width:100%;
+    background-color: rgb(145, 145, 145);
+}
+.footersub{
+    width:100%;
+    display: flex;
+    justify-content:space-between;
+    padding:40px;
+}
+.footerlogo p{
+    font-size: 2.3rem;
+    font-weight: bold;
+    margin:0 200px;
+    color:white;
+}
+.footermenus{
+    display: flex;
+    margin:0 200px;
+}
+.footermenus li{
+    padding:0 20px;
+    margin:5px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.copyright{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: rgb(219, 219, 219);
+    height: 30px;
+    background-color: rgb(109, 109, 109);
+}
