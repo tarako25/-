@@ -1,0 +1,236 @@
+.hl{
+    font-size: 2rem;
+    font-weight: bold;
+    padding:30px;
+}
+.frontall{
+    width: 100%;
+    height: 1700px;
+}
+.front{
+    width:100%;
+    margin-top:150px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+}
+.fronttop{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+.left{
+    width:40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.left h2{
+    font-size: 2.5rem;
+    margin-bottom:7%;
+}
+.left p{
+    font-size: 1.5rem;
+    line-height: 40px;
+}
+.img1{
+    background-color: aqua;
+    margin:100px 0;
+    width:850px;
+    height: 550px;
+    box-shadow: 3px 3px 15px rgb(83, 83, 83);
+}
+.front2{
+    width:100%;
+    height: 600px;
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    flex-direction: column;
+    align-items: first baseline;
+    justify-content: first baseline;
+}
+.service{
+    width: 100%;
+    padding:100px 0;
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.imgbox{
+    width: 72%;
+    margin-top:50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.box2{
+    width:350px;
+    margin-bottom:40px;
+}
+.img3{
+    width: 220px;
+    height: 220px;
+    margin-bottom:20px;
+    border-radius: 150px;
+}
+.box2 h3{
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom:10px;
+}
+.btn{
+    cursor: pointer;
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-top:40px;
+    padding:20px 35px;
+    color: white;
+    background-color: rgb(75, 75, 75);
+}
+.prim{
+    width: 100%;
+    padding:100px 0;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.box1{
+    display: flex;
+    width:1000px;
+    padding:20px 0;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom:10px;
+    border: solid 1px rgb(75, 75, 75);
+}
+.box1:hover{
+    background-color:rgb(75, 75, 75); 
+    transition: all 0.6s;
+    color:white;
+}
+.img2{
+    width: 350px;
+    height: 200px;
+}
+.text{
+    width: 45%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.text h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom:20px;
+}
+.text p{
+    font-size: 18px;
+    line-height: 30px;
+}
+.yen{
+    font-weight: bold;
+    margin-top:20px;
+}
+.news{
+    width: 100%;
+    padding:100px 0;
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.newsbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 72%;
+    border: solid 3px rgb(184, 184, 184);
+}
+.article{
+    box-shadow: 1px 1px 20px rgb(146, 144, 144);
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:350px;
+    height: 270px;
+    margin:30px;
+}
+.article:hover{
+    background-color: rgb(75, 75, 75); 
+    transition: all 0.6s;
+    color: white;
+}
+.img4{
+    margin:15px 0;
+    width:320px;
+    height: 180px;
+}
+.article p{
+    margin-bottom:15px;
+    width: 310px;
+    font-size: 1.1rem;
+}
+.QAall{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:100px 0;
+    width: 100%;
+    background-color:rgb(255, 255, 255);
+}
+.QAboxs{
+    padding:50px 0;
+    display: flex;
+    width:72%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.Qbox{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    height: 60px;
+    margin-bottom:10px;
+    border-bottom: dotted 3px rgb(150, 150, 150);
+}
+.Qbox span{
+    font-size: 2rem;
+    margin:0px 30px;
+}
+.Qbox h2{
+    font-size: 1.5rem;
+}
+.Abox{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    height: 60px;
+    margin-bottom:10px;
+}
+.Abox span{
+    font-size: 2rem;
+    margin:0px 30px;
+}
+.Abox h2{
+    font-size: 1.5rem;
+}
+.acesess{
+    width: 100%;
+    padding:100px 0;
+    background-color: rgb(238, 238, 238);
+}

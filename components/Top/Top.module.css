@@ -1,0 +1,39 @@
+.top{
+    display: flex;
+    justify-content: center;
+}
+.topsub{
+    width:100%;
+    height: 940px;
+    position: relative;
+}
+.img1{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left:0;
+    transition: all 0.8s;
+}
+.kybox{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    z-index: 2;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+.kybox p{
+    font-size:4.3rem;
+    padding-bottom:20px;
+}
+.description{
+    display: flex;
+    justify-content: center;
+}
+.description p{
+    width:80%;
+    font-size:1.2rem;
+    line-height: 40px;
+}
