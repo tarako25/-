@@ -123,35 +123,23 @@ function Front() {
             <span>Q.</span>
             <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit?</h2>
           </div>
-          <div className={styles.Abox}>
-            <span>A.</span>
-            <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem, ipsum.</h2>
-          </div>
           <div className={styles.Qbox}>
             <span>Q.</span>
             <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit?</h2>
           </div>
-          <div className={styles.Abox}>
-            <span>A.</span>
-            <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem, ipsum.</h2>
-          </div>
           <div className={styles.Qbox}>
             <span>Q.</span>
             <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit?</h2>
-          </div>
-          <div className={styles.Abox}>
-            <span>A.</span>
-            <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem, ipsum.</h2>
           </div>
         </div>
       </div>
-      <div className={styles.acesess}>
+      <div className={styles.access}>
         <div className={styles.hl}>
-          <h1>Acesess</h1>
+          <h1>Access</h1>
         </div>
         <div className={styles.acbox}>
           <div className={styles.acleft}>
-            <h2>Lorem, ipsum.</h2>
+            <h2>Lorem ipsum</h2>
             <p>TEL 090-XXXX-XXXX</p>
             <p>〒 XXX-XXXX</p>
             <p>Lorem ipsum dolor sit amet.</p>

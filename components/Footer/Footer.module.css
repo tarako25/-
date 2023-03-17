@@ -6,18 +6,16 @@
 .footersub{
     width:100%;
     display: flex;
-    justify-content:space-between;
+    justify-content: space-around;
     padding:40px;
 }
 .footerlogo p{
     font-size: 2.3rem;
     font-weight: bold;
-    margin:0 200px;
     color:white;
 }
 .footermenus{
     display: flex;
-    margin:0 200px;
 }
 .footermenus li{
     padding:0 20px;
@@ -33,4 +31,34 @@
     color: rgb(219, 219, 219);
     height: 30px;
     background-color: rgb(109, 109, 109);
+}
+/*IPad*/
+
+@media screen and ( max-width:1280px ) {
+
+    }
+
+/*IPhone*/
+    
+@media screen and ( max-width:768px ) {
+    
+    .footersub{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding:20px;
+    }
+    .footerlogo p{
+        font-size: 1.5rem;
+        margin:20px;
+    }
+    .footermenus li{
+        padding:0 10px;
+        font-size: 1rem;
+    }
+    .copyright{
+        font-size: 0.9rem;
+        height: 25px;
+    }
 }

@@ -37,3 +37,28 @@
     font-size:1.2rem;
     line-height: 40px;
 }
+/*IPad*/
+
+@media screen and ( max-width:1280px ) {
+
+
+    }
+    
+    /*IPhone*/
+    
+    @media screen and ( max-width:768px ) {
+    
+        .topsub{
+            height: 560px;
+        }
+        .kybox{
+            width:80%;
+        }
+        .kybox p{
+            font-size:2.2rem;
+        }
+        .description p{
+            font-size:1rem;
+            line-height: 25px;
+        }
+    }
