@@ -6,73 +6,38 @@ import Image from 'next/image'
 function Front() {
   return (
     <div>
-      <div className={styles.frontall}>
-        <div className={styles.front}>
-          <div className={styles.fronttop}>
-            <div className={styles.left}>
-              <h2>Lorem ipsum dolor sit.</h2>
-              <p>Lorem ipsum dolor sit, amet lorem4consectetur adipisicing elit. Vero iste illum error maxime voluptas neque earum facere corrupti culpa eius.</p>
-            </div>
-            <div className={styles.right}>
-              <Image src={img1} className={styles.img1}/>
-            </div>
-          </div>
-        </div>
-        <div className={styles.front2}>
-          <div className={styles.fronttop}>
-          <div className={styles.right}>
-              <Image src={img1} className={styles.img1}/>
-            </div>
-            <div className={styles.left}>
-              <h2>Lorem ipsum dolor sit amet consectetur.</h2>
-              <p>Lorem ipsum dolor sit, amet Lorem ipsum dolor sit amet. consectetur adipisicing elit. Vero iste illum error maxime voluptas neque earum facere corrupti culpa eius.</p>
-            </div>
-          </div>
-        </div>
-        <div className={styles.front}>
-          <div className={styles.fronttop}>
-            <div className={styles.left}>
-              <h2>Lorem ipsum dolor sit amet.</h2>
-              <p>Lorem ipsum dolor sit, amet lorem4consectetur adipisicing elit. Vero iste illum error maxime voluptas neque earum facere corrupti culpa eius.</p>
-            </div>
-            <div className={styles.right}>
-              <Image src={img1} className={styles.img1}/>
-            </div>
-          </div>
-        </div>
-      </div>
       <div className={styles.service}>
         <div className={styles.hl}>
           <h1>Service</h1>
         </div>
         <div className={styles.imgbox}>
             <div className={styles.box2}>
-              <Image src={img1} className={styles.img3}/>
+              <Image src={img1} className={styles.img3} alt="service0"/>
               <h3>Lorem ipsum dolor</h3>
               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum qui obcaecati laboriosam assumenda fugiat voluptatem sunt vero ad adipisci odio.</p>
             </div>
             <div className={styles.box2}>
-              <Image src={img1} className={styles.img3}/>
+              <Image src={img1} className={styles.img3} alt="service1"/>
               <h3>Lorem ipsum dolor</h3>
               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum qui obcaecati laboriosam assumenda fugiat voluptatem sunt vero ad adipisci odio.</p>
             </div>
             <div className={styles.box2}>
-              <Image src={img1} className={styles.img3}/>
+              <Image src={img1} className={styles.img3} alt="service2"/>
               <h3>Lorem ipsum dolor</h3>
               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum qui obcaecati laboriosam assumenda fugiat voluptatem sunt vero ad adipisci odio.</p>
             </div>
             <div className={styles.box2}>
-              <Image src={img1} className={styles.img3}/>
+              <Image src={img1} className={styles.img3} alt="service3"/>
               <h3>Lorem ipsum dolor</h3>
               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum qui obcaecati laboriosam assumenda fugiat voluptatem sunt vero ad adipisci odio.</p>
             </div>
             <div className={styles.box2}>
-              <Image src={img1} className={styles.img3}/>
+              <Image src={img1} className={styles.img3} alt="service4"/>
               <h3>Lorem ipsum dolor</h3>
               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum qui obcaecati laboriosam assumenda fugiat voluptatem sunt vero ad adipisci odio.</p>
             </div>
             <div className={styles.box2}>
-              <Image src={img1} className={styles.img3}/>
+              <Image src={img1} className={styles.img3} alt="service5"/>
               <h3>Lorem ipsum dolor</h3>
               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum qui obcaecati laboriosam assumenda fugiat voluptatem sunt vero ad adipisci odio.</p>
             </div>
@@ -87,7 +52,7 @@ function Front() {
         </div>
         <div className={styles.imgbox}>
             <div className={styles.box1}>
-              <Image src={img1} className={styles.img2}/>
+              <Image src={img1} className={styles.img2} alt="price1"/>
               <div className={styles.text}>
                 <h3>CorseA</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur sit, optio ipsa reprehenderit laboriosam excepturi.</p>
@@ -95,7 +60,7 @@ function Front() {
               </div>
             </div>
             <div className={styles.box1}>
-              <Image src={img1} className={styles.img2}/>
+              <Image src={img1} className={styles.img2} alt="price2"/>
               <div className={styles.text}>
                 <h3>CorseA</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur sit, optio ipsa reprehenderit laboriosam excepturi.</p>
@@ -103,7 +68,7 @@ function Front() {
               </div>
             </div>
             <div className={styles.box1}>
-              <Image src={img1} className={styles.img2}/>
+              <Image src={img1} className={styles.img2} alt="price3"/>
               <div className={styles.text}>
                 <h3>CorseA</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur sit, optio ipsa reprehenderit laboriosam excepturi.</p>
@@ -121,27 +86,27 @@ function Front() {
         </div>
           <div className={styles.newsbox}>
             <div className={styles.article}>
-              <Image src={img1} className={styles.img4}/>
+              <Image src={img1} className={styles.img4} alt="news1"/>
               <p>【Lorem, ipsum dolor.】Lorem ipsum dolor sit amet consectetur.</p>
             </div>
             <div className={styles.article}>
-              <Image src={img1} className={styles.img4}/>
+              <Image src={img1} className={styles.img4} alt="news2"/>
               <p>【Lorem, ipsum dolor.】Lorem ipsum dolor sit amet consectetur.</p>
             </div>
             <div className={styles.article}>
-              <Image src={img1} className={styles.img4}/>
+              <Image src={img1} className={styles.img4} alt="news3"/>
               <p>【Lorem, ipsum dolor.】Lorem ipsum dolor sit amet consectetur.</p>
             </div>
             <div className={styles.article}>
-              <Image src={img1} className={styles.img4}/>
+              <Image src={img1} className={styles.img4} alt="news4"/>
               <p>【Lorem, ipsum dolor.】Lorem ipsum dolor sit amet consectetur.</p>
             </div>
             <div className={styles.article}>
-              <Image src={img1} className={styles.img4}/>
+              <Image src={img1} className={styles.img4} alt="news5"/>
               <p>【Lorem, ipsum dolor.】Lorem ipsum dolor sit amet consectetur.</p>
             </div>
             <div className={styles.article}>
-              <Image src={img1} className={styles.img4}/>
+              <Image src={img1} className={styles.img4} alt="news6"/>
               <p>【Lorem, ipsum dolor.】Lorem ipsum dolor sit amet consectetur.</p>
             </div>
           </div>

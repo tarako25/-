@@ -44,3 +44,21 @@
 .headernavi li:hover::after {
     width:100%;
 }
+
+/*IPad*/
+
+@media screen and ( max-width:1280px ) {
+
+    .headernavi li{
+        display: none;
+    }
+}
+
+/*IPhone*/
+
+@media screen and ( max-width:768px ) {
+
+    .headerlogo p{
+        font-size:25px;
+    }
+}

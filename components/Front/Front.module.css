@@ -3,56 +3,6 @@
     font-weight: bold;
     padding:30px;
 }
-.frontall{
-    width: 100%;
-    height: 1700px;
-}
-.front{
-    width:100%;
-    margin-top:150px;
-    height: 400px;
-    background-color: rgb(255, 255, 255);
-    display: flex;
-    flex-direction: column;
-    align-items: end;
-    justify-content: center;
-}
-.fronttop{
-    width: 80%;
-    display: flex;
-    justify-content: space-between;
-    text-align: left;
-}
-.left{
-    width:40%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.left h2{
-    font-size: 2.5rem;
-    margin-bottom:7%;
-}
-.left p{
-    font-size: 1.5rem;
-    line-height: 40px;
-}
-.img1{
-    background-color: aqua;
-    margin:100px 0;
-    width:850px;
-    height: 550px;
-    box-shadow: 3px 3px 15px rgb(83, 83, 83);
-}
-.front2{
-    width:100%;
-    height: 600px;
-    background-color: rgb(238, 238, 238);
-    display: flex;
-    flex-direction: column;
-    align-items: first baseline;
-    justify-content: first baseline;
-}
 .service{
     width: 100%;
     padding:100px 0;
@@ -285,4 +235,15 @@
     border: solid 3px rgb(155, 155, 155);
     width: 100%;
     height: 100%;
+}
+/*IPad*/
+
+@media screen and ( max-width:1280px ) {
+
+}
+
+/*IPhone*/
+
+@media screen and ( max-width:768px ) {
+
 }

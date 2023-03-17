@@ -7,7 +7,7 @@ function Top() {
   return (
     <div className={styles.top}>
       <div className={styles.topsub}>
-          <Image src={img1} className={styles.img1}/>
+          <Image src={img1} className={styles.img1} alt="top"/>
           <div className={styles.kybox}>
             <p>Lorem ipsum dolor sit.</p>
             <div className={styles.description}>
