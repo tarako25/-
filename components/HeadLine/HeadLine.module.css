@@ -91,15 +91,15 @@
     @media screen and ( max-width:768px ) {
 
         .headlinemain{
-            padding:60px 0;
+            padding:30px 0;
             height:auto;
         }
         .headlinemain2{
-            padding:60px 0;
+            padding:30px 0;
             height:auto;
         }
         .headlinemain3{
-            padding:60px 0;
+            padding:30px 0;
             height:auto;
         }
         .headlinesub{
@@ -119,22 +119,21 @@
         }
         .hlimg{
             width:90%;
-            height: 350px;;
+            height: 280px;;
         }
         .hltext{
-            width:90%;
+            width:100%;
             height: auto;
         }
         .hltextbox{
             text-align: center;
         }
         .hltextbox h2{
-            font-size: 1.7rem;
-            margin-top: 15px;
-            margin-bottom:30px;
+            font-size: 1.5rem;
+            margin:10px 0;
         }
         .hltextbox p{
-            font-size: 1.2rem;
+            font-size: 1rem;
             line-height: 25px;;
         }
 
