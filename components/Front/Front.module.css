@@ -78,6 +78,7 @@
     height: 90%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     text-align: left;
 }
 .text h3{
@@ -229,6 +230,53 @@
 
 @media screen and ( max-width:1280px ) {
 
+    /* price */
+    .img2{
+        width: 300px;
+        height: 200px;
+        margin:0 10px;
+    }
+    .text h3{
+        font-size: 1.3rem;
+        font-weight: bold;
+        margin-bottom:10px;
+    }
+    .text p{
+        font-size: 17px;
+        line-height: 25px;
+    }
+    .yen{
+        font-weight: bold;
+        margin-top:10px;
+    }
+    /* access */
+    .access{
+        padding-top:60px;
+        padding-bottom: 30px;
+    }
+    .acbox{
+        flex-direction: column;
+        width:72%;
+        height: auto;
+        padding:20px 0;
+    }
+    .acleft{
+        width:100%;
+        padding:20px 0;
+        margin-bottom:30px;
+    }
+    .acleft h2{
+        font-size:1.6rem;
+        margin:20px 0;
+    }
+    .acleft p{
+        font-size:1.2rem;
+        margin:7px 0;
+    }
+    .acright{
+        width:100%;
+        height: 400px;
+    }
 }
 
 /*IPhone*/
@@ -262,15 +310,21 @@
         border: solid 0px;
         padding:10px 0;
     }
+    .img2{
+        width: 350px;
+        height: 200px;
+    }
     .text{
         width:90%;
         text-align: center;
     }
     .text h3{
+        font-size: 1.5rem;
         margin-top:20px;
         margin-bottom: 10px;
     }
     .text p{
+        font-size: 18px;
         line-height: 25px;
     }
     .yen{
