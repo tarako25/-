@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import React from 'react'
 import styles from "components/Header/Header.module.css"
+import DensityMediumIcon from '@mui/icons-material/DensityMedium';
 
 function Header() {
   return (
@@ -30,6 +31,7 @@ function Header() {
                   </Link>
               </ul>
           </navi>
+          <DensityMediumIcon className={styles.icon}/>
     </div>
   )
 }

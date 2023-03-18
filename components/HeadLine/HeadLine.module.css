@@ -1,0 +1,141 @@
+.headlinemain{
+    padding:100px 0;
+    width:100%;
+    height: 560px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+}
+.headlinesub{
+    display: flex;
+    justify-content: end;
+}
+.headlinemain2{
+    padding:100px 0;
+    width:100%;
+    height: 560px;
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    flex-direction: column;
+}
+.headlinesub2{
+    display: flex;
+    justify-content: baseline;
+}
+.headlinemain3{
+    padding:100px 0;
+    width:100%;
+    height: 700px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+}
+.hlbox{
+    width:80%;
+    height: 530px;
+    display: flex;
+    justify-content: space-between;
+}
+.hlbox2{
+    width:80%;
+    height: 530px;
+    display: flex;
+    justify-content: space-between;
+}
+.hltext{
+    width:35%;
+    height: 75%;
+    margin-top:3%;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hltextbox{
+    width:80%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.hltextbox h2{
+    font-size: 2.3rem;
+    margin-bottom:30px;
+}
+.hltextbox p{
+    font-size: 1.3rem;
+    line-height: 40px;;
+}
+.hlimg{
+    width:55%;
+    height: 100%;
+}
+.img{
+    width:100%;
+    height: 100%;
+}
+/*IPad*/
+
+@media screen and ( max-width:1280px ) {
+
+    .hltextbox h2{
+        font-size: 1.9rem;
+    }
+    .hltextbox p{
+        line-height: 30px;;
+    }
+    }
+    
+    /*IPhone*/
+    
+    @media screen and ( max-width:768px ) {
+
+        .headlinemain{
+            padding:60px 0;
+            height:auto;
+        }
+        .headlinemain2{
+            padding:60px 0;
+            height:auto;
+        }
+        .headlinemain3{
+            padding:60px 0;
+            height:auto;
+        }
+        .headlinesub{
+            justify-content: center;
+        }
+        .hlbox{
+            width:100%;
+            flex-direction:column-reverse;
+            align-items: center;
+            justify-content: center;
+        }
+        .hlbox2{
+            width:100%;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .hlimg{
+            width:90%;
+            height: 350px;;
+        }
+        .hltext{
+            width:90%;
+            height: auto;
+        }
+        .hltextbox{
+            text-align: center;
+        }
+        .hltextbox h2{
+            font-size: 1.7rem;
+            margin-top: 15px;
+            margin-bottom:30px;
+        }
+        .hltextbox p{
+            font-size: 1.2rem;
+            line-height: 25px;;
+        }
+
+    }

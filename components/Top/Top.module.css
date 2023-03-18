@@ -53,6 +53,7 @@
         }
         .kybox{
             width:80%;
+            transform: translate(-50%,-40%);
         }
         .kybox p{
             font-size:2.2rem;

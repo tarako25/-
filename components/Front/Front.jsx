@@ -2,10 +2,12 @@ import React from 'react'
 import styles from "components/Front/Front.module.css"
 import img1 from "img/top.jpg"
 import Image from 'next/image'
+import HeadLine from '../HeadLine/HeadLine'
 
 function Front() {
   return (
     <div>
+      <HeadLine/>
       <div className={styles.service}>
         <div className={styles.hl}>
           <h1>Service</h1>
