@@ -1,14 +1,52 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import styles from "components/Front/Front.module.css"
 import img1 from "img/top.jpg"
 import Image from 'next/image'
 import HeadLine from '../HeadLine/HeadLine'
 
 function Front() {
+
+  useEffect(() => {
+    const element1 = document.getElementById("element1");
+    const element2 = document.getElementById("element2");
+    const element3 = document.getElementById("element3");
+    const element4 = document.getElementById("element4");
+    const element5 = document.getElementById("element5");
+    const handleScroll = () => {
+    const fade1 = element1.getBoundingClientRect();
+    const fade2 = element2.getBoundingClientRect();
+    const fade3 = element3.getBoundingClientRect();
+    const fade4 = element4.getBoundingClientRect();
+    const fade5 = element5.getBoundingClientRect();
+    const height1 = fade1.top;
+    const height2 = fade2.top;
+    const height3 = fade3.top;
+    const height4 = fade4.top;
+    const height5 = fade5.top;
+  
+    if( 1100 > height1){
+      element1.classList.add(styles.slideIn);
+      if( 1000 > height2){
+        element2.classList.add(styles.slideIn);
+        if( 1000 > height3){
+          element3.classList.add(styles.slideIn);
+          if( 1000 > height4){
+            element4.classList.add(styles.slideIn);
+            if( 1000 > height5){
+              element5.classList.add(styles.slideIn);
+            }
+          }
+        }
+      }
+    }
+  }
+     window.addEventListener("scroll", handleScroll);
+  },[])
+
   return (
     <div>
       <HeadLine/>
-      <div className={styles.service}>
+      <div className={styles.service} id="element1">
         <div className={styles.hl}>
           <h1>Service</h1>
         </div>
@@ -48,11 +86,11 @@ function Front() {
           <p>More</p>
         </div>        
       </div>
-      <div className={styles.prim}>
+      <div className={styles.prim} id="element2">
         <div className={styles.hl}>
           <h1>Prim&Corse</h1>
         </div>
-        <div className={styles.imgbox}>
+        <div className={styles.imgbox2}>
             <div className={styles.box1}>
               <Image src={img1} className={styles.img2} alt="price1"/>
               <div className={styles.text}>
@@ -82,7 +120,7 @@ function Front() {
           <p>Click here to apply</p>
         </div>      
       </div>
-      <div className={styles.news}>
+      <div className={styles.news} id="element3">
         <div className={styles.hl}>
           <h1>News</h1>
         </div>
@@ -116,26 +154,26 @@ function Front() {
             More
           </div>
       </div>
-      <div className={styles.QAall}>
+      <div className={styles.QAall} id="element4">
         <div className={styles.hl}>
           <h1>Q&A</h1>
         </div>
         <div className={styles.QAboxs}>
           <div className={styles.Qbox}>
-            <span>Q.</span>
+            <span>＋</span>
             <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit?</h2>
           </div>
           <div className={styles.Qbox}>
-            <span>Q.</span>
+            <span>＋</span>
             <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit?</h2>
           </div>
           <div className={styles.Qbox}>
-            <span>Q.</span>
+            <span>＋</span>
             <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit?</h2>
           </div>
         </div>
       </div>
-      <div className={styles.access}>
+      <div className={styles.access} id="element5">
         <div className={styles.hl}>
           <h1>Access</h1>
         </div>

@@ -4,6 +4,7 @@ import Image from 'next/image'
 import img1 from "img/top.jpg"
 
 function Top() {
+
   return (
     <div className={styles.top}>
       <div className={styles.topsub}>

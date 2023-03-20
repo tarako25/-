@@ -1,13 +1,18 @@
 .header{
     width:100%;
     height: 100px;
-    background-color: rgb(75, 75, 75);
+    background-color: rgba(75, 75, 75, 0);
     display: flex;
     justify-content: space-around;
     align-items: center;
     z-index: 5;
     position: fixed;
+    transition: all 0.3s;
 }
+.header.show {
+    transition: all 0.3s;
+    background-color: rgba(75, 75, 75, 1);
+  }
 .headerlogo p{
     color: rgb(255, 255, 255);
     font-size:30px;
