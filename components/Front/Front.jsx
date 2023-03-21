@@ -126,29 +126,41 @@ function Front() {
         </div>
           <div className={styles.newsbox}>
             <div className={styles.article}>
-              <Image src={img1} className={styles.img4} alt="news1"/>
+              <div className={styles.img4}>
+                <Image src={img1} alt="img" className={styles.img4s}/>
+              </div>
               <p>【Lorem, ipsum dolor.】Lorem ipsum dolor sit amet consectetur.</p>
             </div>
             <div className={styles.article}>
-              <Image src={img1} className={styles.img4} alt="news2"/>
+              <div className={styles.img4}>
+                <Image src={img1} alt="img" className={styles.img4s}/>
+              </div>
               <p>【Lorem, ipsum dolor.】Lorem ipsum dolor sit amet consectetur.</p>
-            </div>
+            </div>  
             <div className={styles.article}>
-              <Image src={img1} className={styles.img4} alt="news3"/>
+              <div className={styles.img4}>
+                <Image src={img1} alt="img" className={styles.img4s}/>
+              </div>
               <p>【Lorem, ipsum dolor.】Lorem ipsum dolor sit amet consectetur.</p>
-            </div>
+            </div>  
             <div className={styles.article}>
-              <Image src={img1} className={styles.img4} alt="news4"/>
+              <div className={styles.img4}>
+                <Image src={img1} alt="img" className={styles.img4s}/>
+              </div>
               <p>【Lorem, ipsum dolor.】Lorem ipsum dolor sit amet consectetur.</p>
-            </div>
+            </div>  
             <div className={styles.article}>
-              <Image src={img1} className={styles.img4} alt="news5"/>
+              <div className={styles.img4}>
+                <Image src={img1} alt="img" className={styles.img4s}/>
+              </div>
               <p>【Lorem, ipsum dolor.】Lorem ipsum dolor sit amet consectetur.</p>
-            </div>
+            </div>  
             <div className={styles.article}>
-              <Image src={img1} className={styles.img4} alt="news6"/>
+              <div className={styles.img4}>
+                <Image src={img1} alt="img" className={styles.img4s}/>
+              </div>
               <p>【Lorem, ipsum dolor.】Lorem ipsum dolor sit amet consectetur.</p>
-            </div>
+            </div>           
           </div>
           <div className={styles.btn}>
             More
