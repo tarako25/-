@@ -6,6 +6,7 @@
     width:100%;
     height: 940px;
     position: relative;
+    overflow: hidden;
 }
 .img1{
     width: 100%;
@@ -14,6 +15,24 @@
     top:0;
     left:0;
     transition: all 0.8s;
+    opacity:0;
+    animation-name: zoom-in-out;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes zoom-in-out {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(2);
+    }
+  }
+.img1.fadeIn{
+    opacity:1;
+    transition: all 4s;
+    transition-delay: 2s;
 }
 .kybox{
     position: absolute;
@@ -23,25 +42,48 @@
     z-index: 2;
     font-weight: bold;
     color: rgb(255, 255, 255);
+    text-shadow: 4px 4px 5px rgb(82, 82, 82);
 }
-.kybox p{
+.description1{
     font-size:4.3rem;
     padding-bottom:20px;
+    opacity: 0;
 }
-.description{
+.description1.fadeIn{
+    opacity: 1;
+    transition: opacity 2.5s;
+    transition-delay: 0.5s;
+}
+.description2{
     display: flex;
     justify-content: center;
+    opacity: 0;
 }
-.description p{
+.description2.fadeIn{
+    opacity: 1;
+    transition: opacity 4s;
+    transition-delay: 3.4s;
+}
+.description2 p{
     width:80%;
-    font-size:1.2rem;
-    line-height: 40px;
+    font-size:1.1rem;
+    line-height: 30px;
 }
 /*IPad*/
 
 @media screen and ( max-width:1280px ) {
 
-
+    .kybox{
+        width:80%;
+        transform: translate(-50%,-70%);
+    }
+    .description1{
+        font-size:3.3rem;
+    }
+    .description2 p{
+        font-size:1rem;
+        line-height: 25px;
+    }
     }
     
     /*IPhone*/
@@ -55,11 +97,11 @@
             width:80%;
             transform: translate(-50%,-40%);
         }
-        .kybox p{
+        .description1{
             font-size:2.2rem;
         }
-        .description p{
-            font-size:1rem;
-            line-height: 25px;
+        .description2 p{
+            font-size:0.8rem;
+            line-height: 20px;
         }
     }

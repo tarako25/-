@@ -1,6 +1,9 @@
 import React, { useEffect } from "react";
 import styles from "components/HeadLine/HeadLine.module.css"
 import img1 from "img/top.jpg"
+import view1 from "img/view1.jpg"
+import view2 from "img/view2.jpg"
+import view3 from "img/view3.jpg"
 import Image from 'next/image'
 
 function HeadLine() {
@@ -43,7 +46,7 @@ function HeadLine() {
               </div>
             </div>
             <div className={styles.hlimg}>
-              <Image src={img1} className={styles.img}/>
+              <Image src={view1} className={styles.img}/>
             </div>
           </div>
         </div>
@@ -52,7 +55,7 @@ function HeadLine() {
         <div className={styles.headlinesub2} id="hl2">
           <div className={styles.hlbox2}>
           <div className={styles.hlimg}>
-              <Image src={img1} className={styles.img}/>
+              <Image src={view2} className={styles.img}/>
             </div>
             <div className={styles.hltext}>
               <div className={styles.hltextbox}>
@@ -73,7 +76,7 @@ function HeadLine() {
               </div>
             </div>
             <div className={styles.hlimg}>
-              <Image src={img1} className={styles.img}/>
+              <Image src={view3} className={styles.img}/>
             </div>
           </div>
         </div>

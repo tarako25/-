@@ -171,17 +171,45 @@ function Front() {
           <h1>Q&A</h1>
         </div>
         <div className={styles.QAboxs}>
-          <div className={styles.Qbox}>
-            <span>＋</span>
-            <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit?</h2>
+          <div className={styles.QAbox}>
+            <div className={styles.Qbox}>
+              <span>Q.</span>
+              <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit?</h2>
+            </div>
+            <div className={styles.Abox}>
+              <span>A.</span>
+              <h2>Lorem, ipsum dolor sit amet consectetur adipisicing.</h2>
+            </div>
           </div>
-          <div className={styles.Qbox}>
-            <span>＋</span>
-            <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit?</h2>
+          <div className={styles.QAbox}>
+            <div className={styles.Qbox}>
+              <span>Q.</span>
+              <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit?</h2>
+            </div>
+            <div className={styles.Abox}>
+              <span>A.</span>
+              <h2>Lorem, ipsum dolor sit amet consectetur adipisicing.</h2>
+            </div>
           </div>
-          <div className={styles.Qbox}>
-            <span>＋</span>
-            <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit?</h2>
+          <div className={styles.QAbox}>
+            <div className={styles.Qbox}>
+              <span>Q.</span>
+              <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit?</h2>
+            </div>
+            <div className={styles.Abox}>
+              <span>A.</span>
+              <h2>Lorem, ipsum dolor sit amet consectetur adipisicing.</h2>
+            </div>
+          </div>
+          <div className={styles.QAbox}>
+            <div className={styles.Qbox}>
+              <span>Q.</span>
+              <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit?</h2>
+            </div>
+            <div className={styles.Abox}>
+              <span>A.</span>
+              <h2>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut at aliquam quis quasi eligendi.</h2>
+            </div>
           </div>
         </div>
       </div>
