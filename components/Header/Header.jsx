@@ -30,7 +30,7 @@ useEffect(() => {
     menubox.classList.toggle(styles.opened);
   }
   menus.addEventListener("click", openHandle );
-  return () => menus.addEventListener("click", openHandle );
+  return () => menus.removeEventListener("click", openHandle );
 }, );
   return (
     <>
