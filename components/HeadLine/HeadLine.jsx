@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import styles from "components/HeadLine/HeadLine.module.css"
-import img1 from "img/top.jpg"
 import view1 from "img/view1.jpg"
 import view2 from "img/view2.jpg"
 import view3 from "img/view3.jpg"
@@ -41,8 +40,8 @@ function HeadLine() {
           <div className={styles.hlbox}>
             <div className={styles.hltext}>
               <div className={styles.hltextbox}>
-                <h2>Lorem, ipsum dolor.</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi illum voluptatum vel?</p>
+                <h2>歴史ある自然に囲まれた旅館「柳屋」</h2>
+                <p>創立100年を迎えた当旅館は大自然に囲まれた歴史ある温泉旅館で、日々の疲れやストレスを忘れ旅先の憩いの場を追求したのが「柳屋」です。</p>
               </div>
             </div>
             <div className={styles.hlimg}>
@@ -59,8 +58,8 @@ function HeadLine() {
             </div>
             <div className={styles.hltext}>
               <div className={styles.hltextbox}>
-                <h2>Lorem, ipsum dolor.</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi illum voluptatum vel?</p>
+                <h2>和の風情に包まれる昔ながらの街並み</h2>
+                <p>伝統的な街並みは、昔ながらの建物や石畳の道などが織りなす美しい景観が特徴です。その美しさは、時代を超えて愛され続けています。</p>
               </div>
             </div>
           </div>
@@ -71,8 +70,8 @@ function HeadLine() {
           <div className={styles.hlbox}>
             <div className={styles.hltext}>
               <div className={styles.hltextbox}>
-                <h2>Lorem, ipsum dolor.</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi illum voluptatum vel?</p>
+                <h2>世界が羨む美肌の湯、極上の癒し</h2>
+                <p>季節折々に変化する山々と川が織りなす美しい景色を楽しみながら、自然と一体化した贅沢なひと時を過ごせます。</p>
               </div>
             </div>
             <div className={styles.hlimg}>

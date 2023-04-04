@@ -1,26 +1,11 @@
 import Link from 'next/link'
 import React, { useEffect } from 'react'
-import styles from "components/Header/Header.module.css"
+import styles from "components/Header/Header2.module.css"
 import DensityMediumIcon from '@mui/icons-material/DensityMedium';
 
-function Header() {
+function Header2() {
 
 //スクロール時の処理(header)//
-  useEffect(() => {
-  const header = document.getElementById("header");
-
-  const scrollHandler = () => {
-    const cscroll = window.pageYOffset;
-    if (0 < cscroll) {
-      header.classList.add(styles.show);
-    } else {
-      header.classList.remove(styles.show);
-    }
-  };
-
-  window.addEventListener("scroll", scrollHandler);
-  return () => window.removeEventListener("scroll", scrollHandler);
-}, []);
 
 useEffect(() => {
   const menus = document.getElementById("menus");
@@ -86,4 +71,4 @@ useEffect(() => {
   )
 }
 
-export default Header
+export default Header2

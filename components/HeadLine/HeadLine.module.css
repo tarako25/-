@@ -84,6 +84,7 @@
 .hltextbox p{
     font-size: 1.3rem;
     line-height: 40px;;
+    color: rgb(148, 148, 148);
 }
 .hlimg{
     width:55%;

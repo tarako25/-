@@ -1,0 +1,124 @@
+.header{
+    width:100%;
+    height: 100px;
+    background-color: rgba(75, 75, 75, 1);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 11;
+    position: fixed;
+    transition: all 0.3s;
+}
+.header.show {
+    transition: all 0.3s;
+    background-color: rgba(75, 75, 75, 1);
+  }
+.headerlogo p{
+    color: rgb(255, 255, 255);
+    font-size:30px;
+    font-weight: bold;
+}
+.headernavi ul{
+    display: flex;
+}
+.headernavi li{
+    font-size:23px;
+    font-weight: bold;
+    padding:10px 10px;
+    margin:0 20px;
+    position: relative;
+    display: inline-block;
+    color: #ffffff;
+}
+.headernavi li:hover{
+    transition: all 0.5s;
+    color:#ffffff;
+}
+.headernavi li::after {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    content: '';
+    width: 0;
+    height: 2px;
+    background-color: #ffffff;
+    transition: .3s;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+.headernavi li:hover::after {
+    width:100%;
+}
+.iconmain{
+    cursor: pointer;
+    display: none;
+}
+.iconsub{
+    font-size:2.3rem;
+    color:white;
+}
+.menubox{
+    width:100%;
+    height: 50%;
+    position:fixed;
+    top:100px;
+    right: -100%;
+    background-color: rgb(95, 95, 95);
+    z-index: 5;
+    transition: all 0.75s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menubox ul{
+    width:100%;
+    height: 100%;;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.menubox li{
+    font-size: 2rem;
+    color: rgb(165, 165, 165);
+    font-weight: bold;
+    transition: 0.5s;
+}
+.menubox li:hover{
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+}
+.menubox.opened{
+    right: 0%;
+    transition: all 0.75s;
+}
+/*IPad*/
+
+@media screen and ( max-width:1280px ) {
+
+.headernavi li{
+    display: none;
+}
+.iconmain{
+    display: block;
+}
+}
+
+/*IPhone*/
+
+@media screen and ( max-width:768px ) {
+    .header{
+        height: 80px;
+    }
+    .headerlogo p{
+        font-size:20px;
+    }
+    .iconsub{
+        font-size:1.8rem;
+    }
+    .menubox{
+        top:80px;
+    }
+    .menubox li{
+        font-size: 1.5rem;
+    }
+}
